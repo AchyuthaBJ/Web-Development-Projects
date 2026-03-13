@@ -1,5 +1,5 @@
-for (var i=0 ; i<document.querySelectorAll(".key").length;i++){
-    document.querySelectorAll(".key")[i].addEventListener("click",function (){
+for (var i=0 ; i<document.querySelectorAll(".white").length;i++){
+    document.querySelectorAll(".white")[i].addEventListener("click",function (){
         soundOnClick(this.innerHTML)
     })
 }
